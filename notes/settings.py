@@ -60,7 +60,7 @@ TEMPLATES = [
     {
         'BACKEND': 'django.template.backends.django.DjangoTemplates',
         'DIRS': [
-            BASE_DIR / 'frontend/build'
+            BASE_DIR / 'build'
             ],
         'APP_DIRS': True,
         'OPTIONS': {
@@ -127,7 +127,7 @@ USE_TZ = True
 STATIC_URL = '/static/'
 
 # STATIC_ROOT = os.path.join(PROJECT_ROOT, '/frontend/build/static')
-STATIC_ROOT =  BASE_DIR / 'frontend/build/static/'
+STATIC_ROOT =  BASE_DIR / 'build/static/'
 
 # STATICFILES_DIRS = [
 #     BASE_DIR / 'frontend/build/static'
