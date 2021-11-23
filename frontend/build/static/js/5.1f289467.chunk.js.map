@@ -1,0 +1,1 @@
+{"version":3,"sources":["pages/not-found.js"],"names":["notfound"],"mappings":"+JACe,SAASA,IACpB,OACE","file":"static/js/5.1f289467.chunk.js","sourcesContent":["\r\nexport default function notfound() {\r\n    return (\r\n      <p>not-found</p>\r\n  )\r\n  }"],"sourceRoot":""}
