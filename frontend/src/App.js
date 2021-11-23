@@ -12,7 +12,7 @@ const notfound = lazy(() => import("./pages/not-found"));
 function App() {
   return (
     <div className="container dark">
-      <div className="app w-full ">
+      <div className="app">
         <Header />
         <Router>
           <Suspense fallback={<p>Loading...</p>}>
