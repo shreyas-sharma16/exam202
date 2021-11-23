@@ -11,8 +11,8 @@ const notfound = lazy(() => import("./pages/not-found"));
 
 function App() {
   return (
-    <div className="container min-w-full dark">
-      <div className="app w-full rounded-xl p-2 ">
+    <div className="container dark">
+      <div className="app w-full ">
         <Header />
         <Router>
           <Suspense fallback={<p>Loading...</p>}>

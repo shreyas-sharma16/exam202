@@ -28,7 +28,7 @@ function getContent(note) {
 export default function ListItem({ note }) {
   return (
     <Link to={`/note/${note.id}`}>
-      <div className="notes-list-item rounded">
+      <div className="notes-list-item">
         <h3>{getTitle(note)}</h3>
         <p>
           <span>{getTime(note.updated)}</span>
